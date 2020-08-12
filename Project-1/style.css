@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+}
+header{
+    height: 75px;
+    width: 100%;
+    /* padding: 15px; */
+    padding-bottom: 12px;
+    background: linear-gradient(to right,rgba(16, 172, 132,1.0),whitesmoke);
+}
+
+header .col-md-6{
+    margin-top: 15px;
+}
+header .col-md-6 h2{
+      font-weight: 400;
+}
+header .col-md-6 h2 .underline{
+      font-size: 2.3rem;
+      color: #2c3e50;
+}
+
+.navbar{
+    padding-top: 0;
+}
+.navbar .style{
+    font-size: medium;
+}
+.navbar .style li {
+    font-size: 1.32rem;
+}
+.navbar .style li a{
+    color: rgba(87, 101, 116,1.0);
+}
+.navbar .style li a .special{
+    color: rgba(52, 31, 151,1.0);
+}
+.navbar .style li a:hover{
+    color: rgba(10, 189, 227,1.0);
+    
+}
+
+.sect{
+    background: url(images/imageedit_1_6754300108.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+   height: 85vh;
+   width: 100vw;
+   padding: 12px;
+}
+
+.sect .visit{
+    color: #fff;
+    padding: 8px 28px;
+    border-radius:  15px;
+    background-color: rgba( 245,245,245,0.511);
+    text-decoration: none;
+}
+.sect .visit:clicked{
+   transition: ease-out;
+}
+.sect .row .heading {
+    margin-top: 11rem;
+    color:rgba(224, 224, 224,1.0);
+}
+.sect .row .lead{
+    color: whitesmoke;
+    font-size: 22px;
+}
+.cards{
+     margin-top: 0rem;
+    /*background: linear-gradient(to right,rgba(121, 134, 203,1.0),#81C784;) */
+    background: url(images/pexels-valeria-boltneva-842571.jpg);
+    padding: 18px;
+    width: 100%;
+
+}
+.cards h4{
+   font-size: 3.00rem;
+    font-weight: 100;
+   color: whitesmoke;
+  
+}
+.cards .display-5{
+    font-size: 1.8rem;
+    font-family: cursive;
+    color: whitesmoke;
+}
+.mat .hey{
+    font-size: 1.8rem;
+}
+ .card-deck .card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(57,56,61,0.205); 
+    margin-top: 1.2rem;
+}
+.mat .lead{
+    font-size: 1.92rem;
+}
+#sect-employees{
+   height: 80vh;
+   width: 100%;
+   background: blue;
+}
+.card-2 .middle{
+   margin-top: 4.0rem;
+    margin-bottom: 0;
+}
+
+
+.team .col-lg-4{
+    text-align: center;
+    padding: 20px;
+}
+.divider{
+    margin: 40px 0;
+}
+
+.form{
+    height: 70vh;
+    padding: 25px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    width: 100%;
+    color: #2c3e50;
+    background: url(images/Dishes/pexels-engin-akyurt-1487511.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    margin-bottom: 20px;
+    z-index: 30;
+}
+.form .col-lg-12 h3{
+    font-weight: bolder;
+}
+.form .col-lg-12 p{
+    font-weight: bolder;
+}
+
+.frm #emailHelp{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.form .center{
+    margin: 20px auto;
+    padding-left: 1.5rem;
+
+}
+.footer{
+   padding: 3vh;
+   width: 100vw;
+   color: whitesmoke;
+   background: linear-gradient(to right,rgba(16, 172, 132,1.0),whitesmoke);
+   z-index: 15;
+   border-top: 1px solid #fff;
+}
+.footer .he{
+    font-size: 2.5rem;
+}
